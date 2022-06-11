@@ -1,0 +1,57 @@
+body {
+	font-family: 'Outfit', sans-serif;
+	padding-top: 50px;
+}
+
+.container {
+	max-width: 480px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol {
+	margin-bottom: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #757575;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+	.container {
+		max-width: 400px;
+		margin: 0;
+		padding: 0 30px;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	p,
+	a,
+	ul {
+		font-size: 15px;
+	}
+}
